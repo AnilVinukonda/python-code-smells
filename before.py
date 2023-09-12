@@ -108,9 +108,7 @@ def main() -> None:
     company = Company()
 
     company.add_employee(SalariedEmployee(name="Louis", role="manager"))
-    company.add_employee(SalariedEmployee(name="Louis", role="manager"))
-    company.add_employee(SalariedEmployee(name="Louis", role="manager"))
-    company.add_employee(SalariedEmployee(name="Louis", role="manager"))
+    
     company.add_employee(HourlyEmployee(name="Brenda", role="president"))
     company.add_employee(HourlyEmployee(name="Tim", role="intern"))
 
