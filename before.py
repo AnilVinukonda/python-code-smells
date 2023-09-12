@@ -133,6 +133,6 @@ oauth = OAuth2Session(
 
 token = oauth.fetch_token(
         'https://api.example.com/o/oauth2/token',
-        client_secret='example_Password') # Noncompliant
+        client_secret='example_Password') 
 
 data = oauth.get('https://www.api.example.com/oauth2/v1/exampledata')
